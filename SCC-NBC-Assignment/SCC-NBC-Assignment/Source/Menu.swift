@@ -17,7 +17,7 @@ class Menu {
     func printMenu() {
         print("[ SHAKESHACK MENU ]")
         for (index, product) in products.enumerated() {
-            print("\(index + 1). \(product.name ?? "") | \(product.price ?? 0)")
+            print("\(index + 1). \(product.name ?? "") | \(product.price ?? 0)원 | \(product.description ?? "")")
         }
         print("0. 종료")
     }
